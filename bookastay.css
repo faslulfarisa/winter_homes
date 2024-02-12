@@ -1,0 +1,54 @@
+body{
+    background-image: url(./images/Arial.jpg);
+}
+
+.content{
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #393a39;
+    opacity: 0.8;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    height: 45vh;
+    width: 90vh;
+}
+h1,p{
+    text-align: center;
+}
+h1{
+    color: aqua;
+}
+.date-container{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    padding: 5px 10px;
+}
+.details{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    margin: 10px;
+    padding: 5px 10px;
+
+}
+.adult-details,.child-details,.room-details{
+    width:200px;
+}
+
+.search-details{
+    text-align: center;
+}
+.search-details input{
+    padding: 10px;
+    background-color:crimson;
+    color: white;
+    border: none;
+}
+input{
+    width:150px;
+}
+
+
+

@@ -1,0 +1,30 @@
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    padding: 20px;
+}
+.content img{
+    width: 100%;
+}
+h1,h2{
+    text-align: center;
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+.roomspage-footer{
+    position: absolute;
+    top:120vh;
+}
+
+
+
+
